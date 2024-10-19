@@ -4,7 +4,7 @@ import { auth0Client } from "../index";
 const Home = component$(() => {
 
   const logoutHandler = $(() => {
-    auth0Client.logout({ logoutParams: { returnTo: 'http://localhost:5173/' } });
+    auth0Client.logout({ logoutParams: { returnTo: 'https://qwik.dummykarantest.online/' } });
   })
     return (
       <div>
