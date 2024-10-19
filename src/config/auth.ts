@@ -4,6 +4,6 @@ export const auth0Config = {
     clientId: 'QMRYkZAkmWTUzUfI2AZyxWz6uhO9V1jx',
     scope: 'openid profile email',
     authorizationParams: {
-      redirect_uri: 'http://localhost:5173/home',
+      redirect_uri: 'https://qwik.dummykarantest.online/home',
     }
 };
